@@ -5,7 +5,7 @@ Datacenter Lookup is an IP address parser in Ruby using the datacenters list fro
 Installation:
 
 ```
-gem 'datacenter-lookup', '~> 0.1.3'
+gem 'datacenter_lookup', '~> 0.1.3'
 ```
 
 Then, look up your IP address like so:
