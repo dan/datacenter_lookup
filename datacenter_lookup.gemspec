@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = "datacenter_lookup"
-  s.version       = "0.1.2"
+  s.version       = "0.1.3"
   s.date          = "2019-08-30"
   s.homepage      = "https://github.com/dan/datacenter_lookup"
   s.summary       = "IP address finder for the IPCat datacenter address list"
