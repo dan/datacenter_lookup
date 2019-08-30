@@ -11,7 +11,9 @@ gem 'datacenter-lookup', '~> 0.1.0'
 Then, look up your IP address like so:
 
 ```
-dd = DatacenterLookup::Parser.new()
+irb
+require 'datacenter_lookup'
+dc = DatacenterLookup::Parser.new()
 ip = "5.79.26.0"
-puts dd.parse(ip) # http://www.rackspace.com/
+puts dc.find(ip) # => "http://www.rackspace.com/"
 ```

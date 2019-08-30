@@ -8,5 +8,5 @@ Gem::Specification.new do |s|
   s.authors     = ["Dan Benjamin"]
   s.email       = "dan@hivelogic.com"
   s.files       = Dir["{lib,vendor}/**/*", "LICENSE", "README.md"]
-  s.license       = "GPL v3"
+  s.license       = "GPL-3.0"
 end

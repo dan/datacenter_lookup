@@ -7,7 +7,7 @@ module DatacenterLookup
       @starts = Array.new
       @ends = Array.new
       @urls = Array.new
-      File.open(DCDetective::DefaultDatacentersPath, "r").readlines.map do |line|
+      File.open(DatacenterLookup::DefaultDatacentersPath, "r").readlines.map do |line|
         add(*CSV.parse_line(line))
       end
     end
