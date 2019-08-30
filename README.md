@@ -1,6 +1,6 @@
 # Datacenter Lookup
 
-Datacenter Detective is an IP address parser in Ruby using the datacenters list from [IPCat](https://github.com/client9/ipcat).
+Datacenter Lookup is an IP address parser in Ruby using the datacenters list from [IPCat](https://github.com/client9/ipcat).
 
 Installation:
 
