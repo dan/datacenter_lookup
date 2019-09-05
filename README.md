@@ -16,6 +16,6 @@ require 'datacenter_lookup'
 dc = DatacenterLookup::Parser.new()
 ip = "5.79.26.0"
 puts dc.find(ip) # => "http://www.rackspace.com/"
-ip = "1.1.1.1"
-puts dc.find(ip) # => nil
+ip2 = "1.1.1.1"
+puts dc.find(ip2) # => nil
 ```
